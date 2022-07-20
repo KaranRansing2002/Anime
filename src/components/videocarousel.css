@@ -1,3 +1,4 @@
+
 video{
     object-fit:cover;
     width : 100%;
@@ -18,11 +19,23 @@ video{
     object-fit:contain;
     /* background-color: #36393f; */
 }
+
+
+
 h1{
-    color: rgb(142, 212, 142);
+    /* color: rgb(142, 212, 142); */
+    text-transform: uppercase;
     font-size: 4rem;
-    animation: color 4s infinite;
+    background-image: linear-gradient(to right, yellow,rgb(100, 206, 100),rgb(76, 238, 189),rgb(223, 100, 121), red, yellow);
+    background-clip : text;
+    color : transparent;
+    text-align: center;
+    background-size : 300%;
+    background-position: -100%;
+    animation: animatedText 6s infinite linear;
 }
+
+
 
 .btns{
     height: 3rem;
@@ -35,3 +48,5 @@ h1{
     margin: 1rem;
     cursor: pointer;
 }
+
+

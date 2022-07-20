@@ -13,7 +13,7 @@ function VideoCarousel() {
   const videos=[anim1,onepiece,naruto,Bleach];
   return (
     <div className='vids'>
-      <video src={naruto} autoPlay />
+      <video src={anim4} autoPlay loop/>
       <h1>Let's Get Started</h1>
       <div className='btn'>
         <button className='btns'>Login</button>
